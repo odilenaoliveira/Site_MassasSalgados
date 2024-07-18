@@ -1,0 +1,29 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 40px 100px;
+    z-index: 10000;
+    background: #e0d966;
+}
+header .contato{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #e7e5d1;
+    margin-bottom: 20px;
+}
+
+header ul{position: relative;display: flex;justify-content: center;align-content: center;}
+header ul li{display: inline-block;padding: 10px;text-transform: capitalize;}
+header ul li a{color: #000; font-size: 20px;}
+
+header.sticky{padding: 5px 100px; background-color: #e0d966;}
+header.sticky .contato{display: none;}
+header.sticky ul li a, .logo{color: #000;}
