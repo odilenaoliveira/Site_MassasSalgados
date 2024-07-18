@@ -4,6 +4,7 @@ window.addEventListener("scroll",function(){
 });
 
 //Initialize Swiper
+/*
 var swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
@@ -13,4 +14,4 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-});
+});*/

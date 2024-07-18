@@ -20,6 +20,9 @@
 }
 img{width: 100%;height: 100%;}
 
+
+/*** CONFIGURAÇÕES ***/
+
 .banner{
     position: relative;
     width: 100%;
@@ -72,9 +75,10 @@ img{width: 100%;height: 100%;}
 }
 .text .subtitle{color: gold;font-size: 1.2em;}
 .text .preco{color: #000;font-size: 1.9em;}
-.add a{
+.add{
     background-color: yellow;
     font-size: 18px;
+    text-align: center;
     border: none;
     border-radius: 25px;
     padding: 10px;
@@ -82,7 +86,7 @@ img{width: 100%;height: 100%;}
     width: 100px;
     box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.29);
 }
-.add a:hover{background: #ddd;}
+.add:hover{background: #ddd;}
 
 /*Destaque especial*/
 .card{
@@ -181,6 +185,8 @@ img{width: 100%;height: 100%;}
     display: flex;
     justify-content: center;
     align-content: center;
+    background: url("/public/image/banner/fundo_recheio.png") center no-repeat;
+    background-size: cover;
 }
 .recheio .info-recheio{
     position: relative;
@@ -208,4 +214,4 @@ img{width: 100%;height: 100%;}
 }
 .recheio .info-recheio .subtitle{font-size: 2.1em;}
 .recheio .info-recheio p{font-size: 1.2em;}
-.recheio .info-recheio .btnRecheio{width: 200px;}
+.recheio .info-recheio .btnRecheio{width: 200px;transform: translateX(350px);}

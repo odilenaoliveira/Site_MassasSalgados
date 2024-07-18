@@ -15,6 +15,7 @@ footer .container .box{
     margin-bottom: 10px;
     display: inline-block;
 }
+footer .container .box .boxImg{margin-top: 20px;}
 footer .container .box h3{
     position: relative;
     color: white;

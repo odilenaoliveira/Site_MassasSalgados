@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="shortcut icon" href="/public/image/banner/logo_image.png" type="image/x-icon">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -11,12 +12,15 @@
 </head>
 <body>
     <header>
+        <div class="boxImg">
+            <a href="index.html"><img src="/public/image/banner/logo_letra-removebg-preview (1).png" alt=""></a> 
+        </div>
+        <a href="" class="logo"></a>
         <ul class="contato">
             <li>(00)0000-0000</li>
             <li>(00)00000-0000</li>
             <li>massassalgados@email.com</li>
         </ul>
-        <a href="" class="logo"></a>
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Sobre</a></li>
@@ -24,6 +28,7 @@
             <li><a href="">Contato</a></li>
         </ul>
     </header>
+    
     <!-- Seção Banner -->
      <section class="banner">
         <div class="container">
@@ -31,7 +36,7 @@
             <h3 class="subtitle">Aqui você encontra novos recheios, massas crocantes e muito mais.</h3>
         </div>
      </section>
-
+    
     <!-- Seção Destaque-->
      <section class="destaque">
         <div class="box">
@@ -103,7 +108,7 @@
             <div class="title">Torta Cremosa de Cereja</div>
             <div class="subtitle">Tamanho Médio</div>
             <div class="preco">R$19.99</div>
-            <button class="add">Peça Já</button>
+            <button class="add"><a href="/public/templates/tortas.html">Peça Já</a></button>
         </div>
      </section>
 
@@ -314,9 +319,9 @@
             <span class="novidade">Novidade</span>
             <h2 class="title">Faça seu próprio recheio</h2>
             <h4 class="subtitle">Agora você é o nosso chef</h4>
-            <p class="text">Agora você pode escolher o recheio que deseja no seu pedido, em qualquer categoria
+            <p class="text">Aqui você pode escolher o recheio que deseja no seu pedido, em qualquer categoria
                 basta ligar ou mandar mensagem via whatsapp e selecionar na nossa lista disponivel aqui no site,
-                instagram ou no whatsapp, pode adicinar quantas você quiser.
+                instagram ou no whatsapp, pode adicionar quantas você quiser.
             </p>
             <button class="add btnRecheio"><a href="">Monte seu recheio</a></button>
         </div>
@@ -328,6 +333,7 @@
             <div class="box">
                 <h3>Sobre Nós</h3>
                 <p>A empresa foi fundada em 2014, fazendo as melhores massas e recheios</p>
+                <div class="boxImg"><img src="/public/image/banner/logo_letra-removebg-preview (1).png" alt=""></div>
             </div>
             <div class="box">
                 <h3>Páginas</h3>
@@ -367,7 +373,9 @@
      
      <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="/public/js/main.js"></script>
+    <script src="/public/js/slider.js"></script>
    
 </body>
 </html>
