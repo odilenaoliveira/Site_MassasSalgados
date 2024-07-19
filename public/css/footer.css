@@ -1,47 +1,15 @@
-footer{
-    position: relative;
-    width: 100%;
-    height: auto;
-    padding: 50px 100px;
-    background: #ba4321;
-}
-footer .container{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
-}
-footer .container .box{
-    margin-bottom: 10px;
-    display: inline-block;
-}
+footer{position: relative;width: 100%;height: auto;padding: 50px 100px;background: #ba4321;}
+footer .container{width: 100%;display: grid;grid-template-columns: repeat(4,1fr);gap: 20px;}
+footer .container .box{margin-bottom: 10px;display: inline-block;}
 footer .container .box .boxImg{margin-top: 20px;}
-footer .container .box h3{
-    position: relative;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
+footer .container .box h3{position: relative;color: white;font-size: 18px;font-weight: 600;margin-bottom: 15px;}
 footer .container .box p{color: white;} 
 footer .container .box ul li a{color: white;font-size: 18px;} 
 footer .container .box ul li{padding-top: 5px;}
-
 .box .info li{display: grid;grid-template-columns: 30px 1fr;margin-bottom: 16px;}
 .box .info li span{color: white;font-size: 16px;gap: 10px;}
 .box .info li a {color: white;}
-
 .container .sci{margin-top: 20px;display: grid;grid-template-columns: repeat(4,50px);}
-.container .sci li a i{
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    background-color: white;
-    font-size: 20px;
-    color: #000;
-}
+.container .sci li a i{display: inline-block;width: 36px;height: 36px;display: grid;justify-content: center;align-content: center;background-color: white;font-size: 20px;color: #000;}
 .sci li a:hover i{background-color: #000;color: white;}
 .copyright{width: 100%;background-color: #e0d966;}

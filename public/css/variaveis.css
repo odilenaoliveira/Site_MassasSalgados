@@ -1,4 +1,13 @@
 :root{
-    --bg-blue:blue;
-    --bg-yellow:yellow;
+    /* cores */
+    --bg-rust:#BA4321;
+    --bg-goldenrod:#D5A021;
+    --bg-goldenrod1:#E1B03D;
+    --bg-icterine:#EEFC57;
+    --bg-alabaster:#EDE7D9;
+    --bg-black:#040303;
+    --bg-jet:#323031;
+    --bg-bole:#6A3E37;
+    /* font weight-align-size-color*/
+    --bg-text-color:white;
 }

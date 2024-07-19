@@ -15,3 +15,8 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
 });*/
+
+// SCROLLREVEAL
+ScrollReveal({reset:true,distance:'60px',delay:400,duration:2500});
+ScrollReveal().reveal('.destaque',{delay:500,origin:'bottom'});
+ScrollReveal().reveal('.info-recheio',{delay:400,origin:'bottom'});
